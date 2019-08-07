@@ -109,8 +109,13 @@ h2 {
 			font-size: 4.5rem;
 			
 			
-			
-			 }
+			}
+
+			h1.first-word {
+				/*border: 2px solid red; */
+				padding-left: 2rem;
+				
+				 }
 
 			 h1.second-word {
 			/*border: 2px solid red; */
@@ -128,7 +133,74 @@ h2 {
 			margin: 4rem 0rem 0rem 10rem;
 				
 				
-				
+		}
+
+		button {
+			/*border: 2px solid red; */
+			border: 1px solid black;
+			padding: 10px 40px;
+			font-size: 17px;
+			margin-left: 26rem; 
+		  margin-top: -.2rem; 
+		}
+
+		.info {
+			/*border: 2px solid red; */
+			width: 81%;
+			display: flex;
+			margin-left: 8rem;
+			margin-top: 4rem; 
+			border-top: 1px solid black;
+			padding-top: 2rem;
 			}
+
+			.feature-div {
+				
+			/*border: 2px solid red; */
+			padding-right: 1rem;
+			 
+			}
+
+			.middle-img {
+				/*border: 2px solid red; */
+				margin: 3rem 0rem 3rem 8rem;
+				width: 80%;
+				
+				}
+
+      
+.lower-content {
+	/*border: 2px solid red; */
+	display: flex; 
+	width: 80%;
+	margin-left: 7.9rem;
+	/*padding-right: 30px; */	
+	}
+	
+	.services-div {
+	margin-right: 2rem;
+	}
+	
+	.product-div {
+	margin-right: 2rem;
+	}
+	
+	ul {
+		border-top: 1px solid black;
+		margin-left: 130px;
+		margin-top: 50px;
+		width: 80%;	
+		padding-top: 50px;
+	}
+	
+	footer {
+		text-align: center;
+		padding: 60px 0px 70px 0px;
+	}
+	
+	
+	
+			
+			
 			
   
