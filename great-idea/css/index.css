@@ -58,7 +58,7 @@ html, body {
 }
 
 h1, h2, h3, h4, h5 {
-    font-family: 'Bangers', cursive;
+    font-family: 'Bangers', normal; 
     letter-spacing: 1px;
     margin-bottom: 15px;
 }
@@ -79,7 +79,9 @@ h2 {
 		/*border: 2px solid red; */
 		margin-top: 2.5rem;
 		display: flex;
-		justify-content: space-evenly;
+		justify-content: space-between;
+		margin-left: 18rem;
+		width: 63%;
 	}
 	
 	a {
@@ -135,13 +137,20 @@ h2 {
 				
 		}
 
-		button {
+		.get-started-button {
 			/*border: 2px solid red; */
 			border: 1px solid black;
-			padding: 10px 40px;
+			padding: 8px 45px;
 			font-size: 17px;
-			margin-left: 26rem; 
-		  margin-top: -.2rem; 
+			margin-left: 23rem;
+			position: relative;
+			top: -2.5rem;
+		}
+
+		.index-wrapper {
+			/*border: 2px solid red; */
+			width: 90%; 
+			margin-left: 8rem;
 		}
 
 		.info {
@@ -185,7 +194,7 @@ h2 {
 	margin-right: 2rem;
 	}
 	
-	ul {
+	.index-ul {
 		border-top: 1px solid black;
 		margin-left: 130px;
 		margin-top: 50px;
@@ -198,9 +207,201 @@ h2 {
 		padding: 60px 0px 70px 0px;
 	}
 	
+	.container {
+		
+		width: 88%;
+		margin-right: 20rem;
+		/*border: 2px solid red;  */
+	}
+
+	.services-header-img {
+		margin: 1rem 0rem 0rem 17rem;
+		width: 74%; 
+	}
+
 	
+
+	.h1-services {
+		margin:  2rem 0rem 2rem 17rem;
+		font-size: 1.5rem;
+		
+	}
+
+	.services {
+		margin-left: 17rem;
+		
+		
+	}
+
+	.hr1 {
+		width: 74%;
+		border-top:  solid black;
+		margin-top: 3rem;
+		margin-left: 17rem;
+	}
+
+	.services-blocks {
+		margin-left: 15.3rem;
+		margin-top: -1rem;
+		
+	}
+		
 	
+
+	.digital-design {
+		display: flex; 
+		margin-top: 3rem;
+		margin-bottom: 2rem;
+		/*border: 2px solid red; */
+	
+		/*margin-left: 6.5rem; */
+	
+		 
+		
+	}
+
+
+
+.d-design {
+	width: 44.2%;
+	margin-left: 1.8rem;
+	border: 1px solid black;
+	background-color: lightgray;
+	padding: 2rem;
+}
+
+.ux-ui {
+	width: 44.2%;
+	margin-left: 2.2rem;
+	border: 1px solid black;
+	background-color: lightgray;
+	padding: 2rem;
+}
 			
-			
+
+
+
+
+.digital-design2 {
+	display: flex;
+	margin-bottom: 2rem;
+
+}
+
+.digital-marketing {
+	width: 44.2%;
+	margin-left: 1.8rem;
+	border: 1px solid black;
+	background-color: lightgray;
+	padding: 2rem;
+}
+
+.web-development {
+	width: 44.2%;
+	margin-left: 2.2rem;
+	border: 1px solid black;
+	background-color: lightgray;
+	padding: 2rem;
+}
+
+
+
+
+.digital-design3 {
+	display: flex;
+	margin-bottom: 2rem;
+
+}
+
+.ios-development {
+
+	width: 44.2%;
+	margin-left: 1.8rem;
+	border: 1px solid black;
+	background-color: lightgray;
+	padding: 2rem;
+}
+
+.android-development {
+	width: 44.2%;
+	margin-left: 2.2rem;
+	border: 1px solid black;
+	background-color: lightgray;
+	padding: 2rem;
+}
+
+.services-button {
+	margin-top: 1rem;
+	padding: .5rem;
+	width: 35%;
+	border-radius: .5rem;
+	border: 1.3px solid black;
+
+	/*border: 2px solid red;*/
+	
+}
+
+.left-button {
+	margin-left: .5rem;
+	font-size: .8rem;
+	margin-bottom: 1.5rem;
+	
+}
+
+.right-button {
+	margin-left: .5rem;
+	font-size: .8rem;
+	margin-bottom: 1.5rem;
+}
+
+.hr2 {
+	width: 74%;
+	border-top:  solid black;
+	margin-top: 3rem;
+	margin-left: 17rem;
+	}
+
+.some-facts-container {
+	display: flex;
+	/*border: 2px solid red; */
+	width: 90%;
+	margin-left: 10.7rem;
+	justify-content: center;
+}
+
+
+	
+.some-facts {
+	display: flex;
+	flex-wrap: wrap;
+	width: 44.2%;
+	/*border: 2px solid green; */
+	padding-top: 2rem;
+	
+}
+
+.some-facts-ul {
+	padding-right: 12rem;
+	margin-left: -.1rem;
+	/*border: 2px solid green; */
+}
+
+.facts-paragraph {
+	position: relative;
+	top: -1.5rem;
+}
+
+.services-li {
+	list-style: square;
+	margin-left: 1.2rem;
+	position: relative;
+	top: -.1rem;
+}
+
+.services-info-img {
+	padding-top: 2rem;
+	height: 97%;
+	/*border: 2px solid green; */
+}
 			
   
